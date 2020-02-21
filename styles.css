@@ -93,23 +93,64 @@ body { /*elegimos la letra y su tipo*/
  
  #piratas{
    width: 300; height: 300;
+   border-radius: 300px;
  }
  
  #nunca{
     width: 300; height: 300;
+    border-radius: 300px;
  }
  
  #eduardo{
    width: 500px;
+   border-radius: 300px;
  }
  #charlie{
    width: 500px;
+   border-radius: 300px;
  }
  
  #alicia{
    width: 500px;
- }
- #main{
-  
+   border-radius: 300px;
  }
  
+#johnny{
+  border-radius:300px;
+}
+
+main .image{
+  border-radius:300px;
+}
+.footer{
+  color: white;
+  background-color: rgb(42, 70, 67);
+}
+
+.footer .footer__sections{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+
+}
+
+
+.banner__img-hero img{
+  border-radius: 30px;
+}
+.copyrigth p{
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: italic;
+}
+strong{ color:rgba(0, 238, 255, 0.425);
+  
+}
+
+#tittle{color:rgba(0, 238, 255, 0.425);
+
+}
