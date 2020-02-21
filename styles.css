@@ -11,7 +11,7 @@ body { /*elegimos la letra y su tipo*/
    text-align: center;/*alineamos el texto*/
    list-style: none;/*quita las viñetas*/
  }
- 
+ /*----terminamos nuestro body*/
  
  header{
    background-color: #171313;
@@ -24,6 +24,15 @@ body { /*elegimos la letra y su tipo*/
      display: flex;
      justify-content:  flex-end;
  }
+
+ nav ul a{
+  padding-right: 30px; /*para separarlos un poco*/
+ }
+ nav ul{
+  display:flex;/*poner todo ordenado*/
+ 
+}
+
  header nav .nav-right-section{ /*estoy creando una clase*/
  width: 250px;
  height: auto; /* para que se acople al contenedor donde está*/
@@ -45,9 +54,10 @@ body { /*elegimos la letra y su tipo*/
      background-repeat: no-repeat;
      background-position: center ;
      background-size: contain;
-     width: 35px;
-     height: 35px;
-   border-radius: 50px;
+     width: 50px;
+     height: 50px;
+     padding-right: 90px;
+     border-radius: 100px;
    
  }
  nav .nav-right-section .menu-facebook{
@@ -55,9 +65,10 @@ body { /*elegimos la letra y su tipo*/
      background-repeat: no-repeat;
      background-position: center ;
      background-size: contain;
-     width: 35px;
-     height: 35px;
-   border-radius: 50px;
+     width: 50px;
+     height: 50px;
+
+   padding-right: 50px; /*para separarlos un poco*/
    
  }
  nav .nav-right-section .menu-twitter{
@@ -65,15 +76,16 @@ body { /*elegimos la letra y su tipo*/
      background-repeat: no-repeat;
      background-position: center ;
      background-size: contain;
-     width: 25px;
-     height: 45px;
-     border-radius: 50px;
+     width: 50px;
+     height: 50px;
+     
+     padding-right: 50px; /*para separarlos un poco*/
    
  }
  .nav-right-section img{ /*estamos  usando la clase que creamos*/
-     border-radius: 50px;
-     margin-left: 10px;
-     width: 32px;
+     
+     border-radius: 50%;
+     width: 100px;
  } /*terminamos nuestro header*/
  main{ /*empezams nuestro main*/
    font-family:'Times New Roman', Times, 
@@ -98,7 +110,7 @@ body { /*elegimos la letra y su tipo*/
  }
  
  #nunca{
-    width: 300; height: 300;
+    width: 300; height: 300; /*anchura y altura*/
     border-radius: 300px;
  }
  
@@ -111,7 +123,7 @@ body { /*elegimos la letra y su tipo*/
    border-radius: 300px;
  }
  
- #alicia{
+ #Alicia{
    width: 500px;
    border-radius: 300px;
  }

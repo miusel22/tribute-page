@@ -1,0 +1,16 @@
+@media (max-width:650px){ /*lo estoy volviendo responsive*/
+    .main__section{
+        padding: 5%
+    }
+
+    .products{
+        display: block;
+        height:auto;
+        padding:5%;
+    }
+
+    .product{
+    margin-top:auto;
+    }
+}
+
