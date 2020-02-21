@@ -1,14 +1,15 @@
 body { /*elegimos la letra y su tipo*/
-    background-color: #1a1a1a;
+    background-color: #1a1a1a; /*color de fondo*/
    color: #fefefe;
-   font-family: 'Ubuntu';
+   font-family: 'Ubuntu';/*elegimos la letra*/
    text-transform: uppercase;
    letter-spacing: 0.2em;
    font-size: 1.3em;
    line-height: 2;
    font-weight: 300;
    text-rendering: optimizeLegibility;
-   text-align: center;
+   text-align: center;/*alineamos el texto*/
+   list-style: none;/*quita las viñetas*/
  }
  
  
@@ -81,7 +82,7 @@ body { /*elegimos la letra y su tipo*/
     padding: 0;
     margin-top: 150px;
     text-align: center;
-  
+    list-style: none;
  }
  
  
@@ -153,4 +154,7 @@ strong{ color:rgba(0, 238, 255, 0.425);
 
 #tittle{color:rgba(0, 238, 255, 0.425);
 
+}
+main .main{
+  list-style: none;
 }
